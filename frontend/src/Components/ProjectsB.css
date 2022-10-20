@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.projectB{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    position: relative;
+    padding-top: 25px;
+
+    min-height: 450px;
+}
+
+.projectB-Image{
+    height: 100%;
+    width: 60%;
+    padding-left: 382px;
+}
+
+.projectB-Description{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.projectB-Image2{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid rgb(136 136 136);
+}
+
+.description-RowOne{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: right; */
+    font-family: 'IBM Plex Mono', monospace;
+    color: #64ffda;
+    /* z-index: 9;
+    margin-left: 600px; */
+    font-size: small;
+
+}
+
+.description-Featured{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: right; */
+    font-family: 'IBM Plex Mono', monospace;
+    color: #64ffda;
+    /* z-index: 9;
+    margin-left: 600px; */
+    font-size: small;
+
+}
+
+.description-Name{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: right; */
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: xx-large;
+    /* z-index: 9;
+    margin-left: 600px; */
+    color: #ccd6f6
+
+}
+
+.description-About{
+    width: 103%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: right; */
+
+    background-color: #112544;
+    color: white;
+
+    /* z-index: 9;
+    margin-left: 590px; */
+
+}
+
+.aboutText{
+    margin: 15px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family:  "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    color: #e6f1ff;
+}
+
+.description-Tools{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: right; */
+    font-family: 'IBM Plex Mono', monospace;
+    color: #64ffda;
+    /* z-index: 9;
+    margin-left: 600px; */
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.featuredProjectText{
+    padding-top: 30px;
+}

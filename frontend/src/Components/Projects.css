@@ -1,0 +1,81 @@
+.projects{
+    height: 100vh;
+    min-height: 2200px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a192f;
+
+}
+
+.projects2{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    width:  1100px;
+    min-height: 1100px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+
+}
+
+.projectHeader{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.header1{
+    width: 100%;
+    height: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 180%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.built{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;;
+    /* color: #ccd6f6; */
+    color: #47bfa3;
+}
+
+.line1{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+
+.line2{
+    width: 100%;
+    height: 50%;
+    /* border-bottom: 1px solid white; */
+}

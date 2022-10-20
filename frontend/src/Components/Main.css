@@ -1,0 +1,21 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    min-height: 250px;
+}
+
+
+.end{
+    min-height: 100px;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne Mono', monospace;
+}
